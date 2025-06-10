@@ -1,2 +1,46 @@
-# CODTECH-Internship-Tasks
-Solutions for all 4 CODTECH cybersecurity tasks
+# ✅ Task 1: File Integrity Checker
+
+## 📌 Objective
+To monitor changes in files by calculating and comparing their SHA-256 hash values using Python.
+
+---
+
+## 🛠️ Tools & Libraries Used
+- Python 3 (Pydroid 3 on Android)
+- `hashlib` library
+- Mobile file system (`/storage/emulated/0/...`)
+
+---
+
+## 📂 Files Included
+- `task1_file_integrity_checker.py` – Python script to calculate SHA-256 hash
+- `test.txt` – Sample test file used for checking integrity
+- `task1_output.jpg/png` – Screenshot showing script output (hash value)
+
+---
+
+## 🧪 How It Works
+1. The script asks for the **full path of a file**.
+2. It reads the file in binary mode.
+3. It calculates the **SHA-256 hash** using `hashlib`.
+4. You can compare the hash value before and after any modification to detect changes.
+
+---
+
+## ▶️ How to Run the Script (Mobile Friendly)
+1. Open the script in **Pydroid 3**.
+2. Run the script.
+3. When asked, enter the full path to the test file:
+
+/storage/emulated/0/CODTECH/Task1/test.txt
+
+4. It will print the SHA-256 hash of the file.
+5. Modify the file and re-run to check for changes.
+
+---
+
+## 🖼️ Screenshot
+![Hash Output](task1_output.jpg)
+
+---
+
