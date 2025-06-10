@@ -1,0 +1,4 @@
+# This will create a test file with sample content
+with open("/storage/emulated/0/CODTECH/Task4/test4.txt", "w") as f:
+    f.write("This is a secret message for Task 4 encryption.")
+print("✅ test4.txt file created successfully!")
