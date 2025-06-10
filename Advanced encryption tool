@@ -1,0 +1,61 @@
+# ✅ Task 4: Advanced Encryption Tool
+
+## 📌 Objective
+To build a Python tool that can securely encrypt and decrypt files using strong encryption (AES-based).
+
+---
+
+## 🛠️ Tools & Libraries Used
+- Python 3 (via Pydroid 3 on Android)
+- `cryptography` library (uses Fernet – AES encryption)
+
+---
+
+## 📂 Files Included
+- `advanced_encryption_tool.py` – Main Python script
+- `key.key` – Generated encryption key
+- `test4.txt` – Original file to encrypt
+- `test4.txt.enc` – Encrypted output file
+- `test4_decrypted.txt` – Final decrypted file
+- `task4_output.jpg` – Screenshot showing results
+
+---
+
+## ▶️ How to Run the Script (Pydroid 3)
+1. Open the script in **Pydroid 3**
+2. Run and select from menu:
+
+
+=== Advanced Encryption Tool ===
+
+1. Generate Key
+
+
+2. Encrypt File
+
+
+3. Decrypt File
+
+4. 3. Use these file paths as input:
+   - Encrypt:
+     ```
+     /storage/emulated/0/test4.txt
+     ```
+   - Decrypt:
+     ```
+     /storage/emulated/0/test4.txt.enc
+     ```
+
+---
+
+## 🔐 Features
+- Generates a secure key (`key.key`)
+- Encrypts any file using AES-level encryption
+- Decrypts the file back to original
+
+---
+
+## 📸 Screenshot
+*Screenshot showing key generation, encryption, and decryption*
+
+---
