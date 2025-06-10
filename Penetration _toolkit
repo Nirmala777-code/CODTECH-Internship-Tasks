@@ -1,0 +1,54 @@
+# Task 3: Penetration Testing Toolkit
+
+## 📌 Objective
+Develop a Python-based toolkit with multiple penetration testing modules like:
+- Port Scanner
+- Brute-Forcer
+
+---
+
+## 🛠️ Tools Used
+- Python 3 (Pydroid 3)
+- `socket` for port scanning
+- `requests` for brute-force simulation
+
+---
+
+## 📂 Files Included
+- `task3_penetration_toolkit.py` – Main Python script
+- `task3_output_ports.jpg` – Screenshot of port scan
+- `task3_output_brute.jpg` – Screenshot of brute-force simulation
+
+---
+
+## ▶️ Modules Description
+
+### 1. 🔍 Port Scanner
+Scans ports 20–1024 of a target IP and shows open ports.
+
+- Tested on: `scanme.nmap.org`
+
+### 2. 🔐 Brute Forcer
+Sends POST requests using a small wordlist to a dummy login endpoint.
+
+- Tested on: `https://httpbin.org/post`
+
+---
+
+## ✅ How to Run
+1. Open script in Pydroid 3
+2. Choose option `1` or `2`
+3. Input:
+   - IP: `scanme.nmap.org`
+   - URL: `https://httpbin.org/post`
+
+---
+
+## 📸 Screenshot Samples
+- Port Scan: ✅ Found open ports on test IP
+- Brute Force: ✅ Attempted multiple passwords from list
+
+---
+
+## ✅ Status
+Completed and verified with mobile tools.
