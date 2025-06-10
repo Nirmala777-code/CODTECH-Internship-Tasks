@@ -37,10 +37,4 @@ To monitor changes in files by calculating and comparing their SHA-256 hash valu
 4. It will print the SHA-256 hash of the file.
 5. Modify the file and re-run to check for changes.
 
----
-
-## 🖼️ Screenshot
-![Hash Output](task1_output.jpg)
-
----
-
+task1_output.jpg/png` – Screenshot showing script output (hash value)
